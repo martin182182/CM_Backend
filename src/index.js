@@ -17,9 +17,9 @@ app.set('port',process.env.PORT||3000);
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
 app.use(myConn(mysql, {
-    host: '52.170.133.28',
-    user: 'root',
-    password: '1234',
+    host: 'prueba.c8ywavddlhrr.us-east-1.rds.amazonaws.com',
+    user: 'admin',
+    password: 'maren182',
     port: 3306,
     database: 'centro_medico'
 },'single'));
